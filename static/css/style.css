@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.astro-form {
+    max-width: 450px;
+    background-color: rgb(255 219 186);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 h1 {
-    color: red;
+    text-align: center;
+}
+
+h1>span {
+    font-size: .8em;
+    line-height: 80%;
 }
